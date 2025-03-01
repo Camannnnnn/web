@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Harith Sharman</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<script src="audio.js"></script>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="portfolio.html" class="active">Home</a></li>
+            <li><a href="about.html" class="active">About Me</a></li>
+            <li><a href="project.html" class="active">Project</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="about-container">
+            <!-- Profile Picture (Clickable) -->
+            <div class="profile-pic">
+                <a href="#profile-popup">
+                    <img src="images/profile.jpg" alt="Harith Sharman">
+                </a>
+            </div>
+
+            <div class="about-text">
+                <h2>Hi, I'm Harith Sharman</h2>
+                <p>Born and raised in 
+                    <a href="#tawau-popup" class="popup-link"><strong>Tawau, Malaysia</strong></a>, 
+                    Technology, creativity, and life’s simple pleasures drive my passion. Whether it’s coding or enjoying a great cup of coffee, I immerse myself in every experience with enthusiasm.
+                </p>
+
+                <h3>My Journey</h3>
+                <p>I began my education at 
+                     <a href="#sjkc-popup" class="popup-link"><strong>SJKC Kung Ming</strong></a> 
+                    and later studied at 
+                    <a href="#smk-popup" class="popup-link"><strong>SMK Tawau</strong></a>
+                     where my interest in technology grew. 
+                    Now, I’m pursuing a diploma in 
+                    <a href="#cs-popup" class="popup-link"><strong>Computer Science at University Putra Malaysia</strong></a>, 
+                    exploring projects in software development and AI.
+</p>
+<h3>Systems I Have Built</h3>
+<ul>
+    <li><a href="project.html#car-rental"><strong>Car Rental Management System</strong></a></li>
+    <li><a href="project.html#smart-garden"><strong>Smart Garden Automation</strong></a></li>
+    <li><a href="project.html#student-outing"><strong>Student Outing System</strong></a></li>
+</ul>
+
+
+                
+                <h3>Cloud & Tech Interests</h3>
+                <ul>
+                    <li><strong>Cloud Computing:</strong> Currently diving into AWS and Azure to explore scalable cloud solutions, optimizing deployments, and enhancing system reliability. </li>
+                    <li><strong>Programming:</strong> Experienced in Python, Java, and SQL for backend and data science projects.</li>
+                    <li><strong>Networking & Security:</strong> Enthusiastic about secure system architectures and cloud security measures.</li>
+                </ul>
+
+                <h3>Let’s Connect!</h3>
+                <p>If you’re into tech or just want to chat about cool ideas, feel free to reach out! Let’s create something amazing together.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pop-up Modals -->
+
+    <div id="tawau-popup" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close">&times;</a>
+            <img src="images/tawau.jpg" alt="Tawau">
+        </div>
+    </div>
+
+    <div id="sjkc-popup" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close">&times;</a>
+            <img src="images/sjkc.jpg" alt="SJKC Kung Ming">
+        </div>
+    </div>
+
+    <div id="smk-popup" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close">&times;</a>
+            <img src="images/smk.jpg" alt="SMK Tawau">
+        </div>
+    </div>
+
+    <div id="cs-popup" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close">&times;</a>
+            <img src="images/cs.jpg" alt="Computer Science">
+        </div>
+    </div>
+
+
+    <div class="music-player">
+        <img src="images/music-icon.jpg" alt="Music Icon" class="music-icon">
+        <p>Daniel Caesar - Get You (Instrumental)</p>
+        <audio id="bg-music" loop autoplay>
+            <source src="media/mysong.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button id="playPause" class="music-button">
+            <span id="playPauseIcon">⏸</span>
+        </button>
+        
+    </div>
+    
+    
+
+    
+
+</body>
+</html>

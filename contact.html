@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/yourfontawesomekit.js" crossorigin="anonymous"></script>
+</head>
+
+<script src="audio.js"></script>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="portfolio.html" class="active">Home</a></li>
+            <li><a href="about.html" class="active">About Me</a></li>
+            <li><a href="project.html" class="active"> Project</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-container">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out! Fill out the form below or connect via social media.</p>
+
+        <!-- Contact Form -->
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <p>Email: <a href="mailto:sharmanharith@gmail.com">sharmanharith@gmail.com</a></p>
+        </div>
+
+       
+       <!-- Social Media Container -->
+<div class="social-container">
+    <label for="social-toggle" class="social-btn">
+        <i class="fas fa-share-alt"></i> <!-- Share Icon -->
+    </label>
+    <input type="checkbox" id="social-toggle" hidden>
+    <div class="social-menu">
+        <a href="https://www.facebook.com/share/15gSfUWHMt/?mibextid=wwXIfr" target="_blank">
+            <i class="fab fa-facebook"></i> Facebook
+        </a>
+        <a href="https://www.instagram.com/hrithshrmn" target="_blank">
+            <i class="fab fa-instagram"></i> Instagram
+        </a>
+        <a href="https://www.tiktok.com/@jsjsjuxd?_t=ZS-8tnm5uik6MM&_r=1" target="_blank">
+            <i class="fab fa-tiktok"></i> TikTok
+        </a>
+    </div>
+</div>
+<div class="music-player">
+    <img src="images/music-icon.jpg" alt="Music Icon" class="music-icon">
+    <p>Daniel Caesar - Get You (Instrumental)</p>
+    <audio id="bg-music" loop autoplay>
+        <source src="media/mysong.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <button id="playPause" class="music-button">
+        <span id="playPauseIcon">⏸</span>
+    </button>
+     
+</div>
+
+        
+    </section>
+
+</body>
+</html>

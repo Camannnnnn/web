@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harith Sharman's Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<script src="audio.js"></script>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="portfolio.html" class="active">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>HARITH SHARMAN</h1>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <div class="image-container">
+            <div class="image-box">
+                <img src="images/image_1.JPG" alt="Image 1">
+            </div>
+            <div class="image-box">
+                <img src="images/image_2.jpg" alt="Image 2">
+            </div>
+            <div class="image-box">
+                <img src="images/image_3.JPG" alt="Image 3">
+            </div>
+        </div>
+    </main>
+
+    <div class="music-player">
+        <img src="images/music-icon.jpg" alt="Music Icon" class="music-icon">
+        <p>Daniel Caesar - Get You (Instrumental)</p>
+        <audio id="bg-music" loop autoplay>
+            <source src="media/mysong.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button id="playPause" class="music-button">
+            <span id="playPauseIcon">⏸</span>
+        </button>
+        
+    </div>
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Harith Sharman</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@500&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<script src="audio.js"></script>
+
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="portfolio.html" class="active">Home</a></li>
+            <li><a href="about.html" class="active">About Me</a></li>
+            <li><a href="project.html" class="active">Project</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Header -->
+    <header>
+        <h1>My Projects</h1>
+    </header>
+
+    <!-- Projects Section -->
+    <main>
+        <section class="projects-container">
+            <div class="project" id="car-rental">
+                <img src="images/car-rental.jpg" alt="Car Rental">
+                <h2>Car Rental Management System</h2>
+                <p>Provide a comprehensive platform for customers to rent vehicles easily, and for the rental company
+                    to manage their fleet efficiently.</p>
+            </div>
+            <div class="project" id="smart-garden">
+                <img src="images/smart-garden.jpg" alt="Smart Garden Automation">
+                <h2>Smart Garden Automation</h2>
+                <p>Created an IoT-based system using Cisco Packet Tracer to manage temperature and water levels efficiently.</p>
+            </div>
+            <div class="project" id="student-outing">
+                <img src="images/osos.JPG" alt="Student Outing System">
+                <h2>Student Outing System</h2>
+                <p>Developed a database-driven system to efficiently manage student outings, ensuring smooth tracking, approval processes, and security measures.</p>
+            </div>
+        </section>
+    </main>
+    
+
+    <div class="music-player">
+        <img src="images/music-icon.jpg" alt="Music Icon" class="music-icon">
+        <p>Daniel Caesar - Get You (Instrumental)</p>
+        <audio id="bg-music" loop autoplay>
+            <source src="media/mysong.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <button id="playPause" class="music-button">
+            <span id="playPauseIcon">⏸</span>
+        </button>
+        
+    </div>
+    
+</body>
+</html>
